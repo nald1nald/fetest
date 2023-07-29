@@ -1,0 +1,75 @@
+.flight-list {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.flight-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.flight-info img {
+  margin-right: 10px;
+  background-color: gray;
+  height: 80px;
+  width: 100px;
+}
+
+.launch-item {
+  display: flex;
+  align-items: center;
+}
+
+.mission-patch {
+  max-width: 110px;
+  margin-right: 0;
+}
+
+.launch-details {
+  flex: 1;
+  word-spacing: 3px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.thisBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  max-height: 100vh;
+  margin-top: 15vh;
+  text-align: left;
+}
+
+.flightDetails {
+  width: 50%;
+  background-color: white;
+  color: #5e5e5e;
+  line-height: 2.4vh;
+}
+
+.flightDetails ul li {
+  margin-bottom: 50px;
+}
+
+.searchBox input {
+  width: 49vw;
+  height: 4vh;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #5e5e5e;
+}
+
+.loading-indicator img {
+  background: transparent;
+  width: 100px;
+}
